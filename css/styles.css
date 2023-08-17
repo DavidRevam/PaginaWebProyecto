@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;       /*Esto le quita los puntos a la lista ordenada (MENU)*/
+    text-decoration: none;  /*Esto elimina la linea de los links*/
+}
+
+body{
+    font-family: sans-serif; /*Fuente provicional hasta Pacific*/
+}
+
+header{
+    /*border: black 5px dashed;*/
+    display:flex;
+    /*background-color: #DE423A;*/
+    width: 100%;
+    height: 130px; 
+    padding: 1%;             
+}
+
+.logo img{
+    /*background-color: blue;*/
+    height: 100%;               /*COLOR PROVISIONAL*/
+}
+
+.tituloWeb{
+    margin: auto; /*Se CENTRO el titulo LA LUPE*/
+    /*background-color: aqua;*/
+    font-size: 35px;
+}
+
+/*----------------------------------------------------------MENU--------------------------------------------------------------------------*/
+
+.cont_lista{
+    background-color: black;
+    border-radius: 5px;
+    width: 95%;
+    margin: auto;
+    height: 60px;
+    display: flex;   
+    padding: 10px; 
+}
+
+.cont_item{
+    /*background-color: burlywood;*/
+    display: flex;
+    width: 33%;
+    height: 100%;
+    font-size: 23px;
+    align-items: center;
+    margin-left: 10px;
+    margin: auto;
+}
+
+.cont_item a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.cont_item li{
+    display: inline-block;
+}
+
+.cont_item a:hover{
+    background-color: #DE423A;
+    height: 100%;
+    width: 100%;
+}
+
