@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>La Lupe</title>
+</head>
+<body>
+    
+
+    <header>
+        <section class="logo">
+            <img src="./img/LogoUtil.png" alt="">   
+        </section> 
+        
+        <section class="tituloWeb">
+            <h1>La Lupe</h1>
+        </section>
+    </header>
+
+    <nav>
+        <ul class="cont_lista">
+            <li class="cont_item"><a href="./index.html">Inicio</a></li>
+            <li class="cont_item"><a href="./Nosotros.html">Sobre Nosotros</a></li>
+            <li class="cont_item"><a href="./Menu.html">Menú</a></li>
+        </ul>
+    </nav>
+
+<main>
+
+    <!--La SIGUIENTE es la estructura para contenedor que contenga dos categorias de platos con sus respectivos cantidades de platos para luego en CSS decirle que 1 contendor 50% y el otro el otro 50% -->
+
+
+
+    <!--Para contener las 2 columnas de los menus-->
+        <section class="contenedor_columnas50">
+
+            <!--Para contener columnas de categoria de menu-->
+            <section class="contenedor_columna">
+
+                <!--Para contener titulo categoria-->
+                <section class="contenedor_titulo_categoria">
+                    <h2>Especial</h2>
+                </section>
+
+                <!--Para contener img categoria-->
+                <section class="contenedor_img">
+                    <img src="./img/especial.jpg" alt="">
+                </section>
+
+                <!--Para contener todo texto y subtitulo plato-->
+                <section class="contenedor_plato">
+
+                    <!--Contenedor titulo del plato-->
+                    <section class="contenedor_subtitulo">
+                        <h3>Plato Individual</h3>
+                    </section>
+
+                    <!--Contenedor descripción de plato-->
+                    <section class="contenedor_txt_plato">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta deserunt maxime dolores possimus maiores, nobis ad, doloribus iusto dolorum laborum sunt inventore earum sequi. Dolores repudiandae ab est facere odio?</p>
+                    </section>
+                </section>
+            </section>
+
+            <!----------------------Esta es la columna 2 dentro del contenedor columna 50 ( Estan dentro para que salgan una al lado de la otra luego con el CSS )--------------------->
+
+            <!--Para contener columnas de categoria de menu-->
+            <section class="contenedor_columna">
+
+                <!--Para contener titulo categoria-->
+                <section class="contenedor_titulo_categoria">
+                    <h2>Nachos</h2>
+                </section>
+
+                <!--Para contener img categoria-->
+                <section class="contenedor_img">
+                    <img src="./img/nachos.jpg" alt="">
+                </section>
+
+                <!--Para contener todo texto y subtitulo plato-->
+                <section class="contenedor_plato">
+
+                    <!--Contenedor titulo del plato-->
+                    <section class="contenedor_subtitulo">
+                        <h3>Plato Individual</h3>
+                    </section>
+
+                    <!--Contenedor descripción de plato-->
+                    <section class="contenedor_txt_plato">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta deserunt maxime dolores possimus maiores, nobis ad, doloribus iusto dolorum laborum sunt inventore earum sequi. Dolores repudiandae ab est facere odio?</p>
+                    </section>
+                </section>
+            </section>
+        </section>
+
+        <!--La ANTERIOR  es la estructura para contenedor que contenga dos categorias de platos con sus respectivos cantidades de platos para luego en CSS decirle que 1 contendor 50% y el otro el otro 50% -->
+
+
+
+
+</main>
+
+    
+
+
+    <footer class="main-footer">
+        <section class="container container--flex">
+            <section class="columna33">
+                <h2 class="titulo_coloumna">¿Por que visitarnos?</h2>
+                    <p class="columna__txt">Te ofrecemos la mejor atención y comida Mexicana que puedes encontrar, con gusto te atenderemos para que compruebes nuestro buen servicio.</p>
+        </section>
+
+        <section class="columna33">
+            <h2 class="titulo_coloumna">Siguenos</h2>
+            <p>facebook</p>
+        </section>
+        <section class="columna33">
+            <h2 class="column__title">Contactanos</h2>
+            <p class="columna__txt"><a href="tel: +573168243735" class="icon-phone">316-824-37-35</a></p>
+            <p class="columna__txt"><a href="https://wa.me/+573168243735?text=Hola!,%20estoy%20interesado%20en%20los%20servicios%20del%20restaurante." class="icon-whatsapp">316-824-37-35</a></p>
+            <p class="columna__txt"><a href="" class="icon-ubication"></a>Carrera 12 calle 46 - 12 Sogamoso, Boyaca</p>
+        </section>
+        <p class="copy">© 2023 Your restaurant / Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
